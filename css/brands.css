@@ -269,3 +269,10 @@ button:hover,
 .button.button-youtube:focus {
   filter: brightness(90%) }
 
+.button.button-zoom {
+  color: #FFFFFF;
+  background-color: #2E8CFF }
+.button.button-zoom:hover,
+.button.button-zoom:focus {
+  filter: brightness(90%) }
+
