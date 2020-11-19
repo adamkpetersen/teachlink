@@ -284,8 +284,8 @@ button:hover,
   filter: brightness(90%) }
 
 .button.button-hours {
-  color: #FFFFFF;
-  background-color: #35faa9 }
+  color: #35faa9;
+  background-color: #ffffff }
 .button.button-zoom:hover,
 .button.button-zoom:focus {
   filter: brightness(90%) }
