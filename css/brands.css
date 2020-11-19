@@ -285,7 +285,7 @@ button:hover,
 
 .button.button-hours {
   color: #000;
-  background-color: #ffffff }
+  background-color: transparent}
 .button.button-zoom:hover,
 .button.button-zoom:focus {
   filter: brightness(90%) }
