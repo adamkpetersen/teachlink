@@ -276,3 +276,9 @@ button:hover,
 .button.button-zoom:focus {
   filter: brightness(90%) }
 
+.button.button-email {
+  color: #FFFFFF;
+  background-color: #000000 }
+.button.button-zoom:hover,
+.button.button-zoom:focus {
+  filter: brightness(90%) }
