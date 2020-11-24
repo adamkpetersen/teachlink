@@ -58,8 +58,8 @@
     -moz-border-radius: 30px 30px 30px 30px;
     -webkit-border-radius: 30px 30px 30px 30px;
     border: 0px solid #000000;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding-top: .001em;
+    padding-bottom: .001em;
     margin-top: -15%;
     margin-right: 5%;
     margin-left: 5%;
@@ -67,7 +67,7 @@
 }
 
 .links {
-    padding-top:5%;
+    padding-top:.7em;
 }
 
 /* For devices larger than 400px */
@@ -102,7 +102,8 @@ body {
   font-size: 18px;
   line-height: 14px;
   font-weight: 400;
-  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  /font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 
 
@@ -124,9 +125,9 @@ h1 {
 }
 
 p {
-  margin-top: 0;
+  margin-top: 5px;
     margin-bottom 0px;
-    line-height: 25px;}
+    line-height: 30px;}
 
 
 /* Links
