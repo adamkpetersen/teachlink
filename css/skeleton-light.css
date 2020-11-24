@@ -100,6 +100,7 @@ html {
   font-size: 100%; }
 body {
   font-size: 18px;
+  background-color: #fcfcfc;
   line-height: 14px;
   font-weight: 400;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -141,23 +142,6 @@ a {
   color: #0085FF; }
 a:hover {
   color: #0085FF; }
-
-const copyToClipboard = str => {
-  const el = document.createElement('textarea');
-  el.value = str;
-  document.body.appendChild(el);
-  el.select();
-  document.execCommand('copy');
-  document.body.removeChild(el);
-};
-
-const url ='http://www.myurl.com/viewReport.php?id=';
-
-document.getElementById('myItem').addEventListener('click', function(e){ 
-  let myUrl =  url + e.target.dataset.page_id;
-  copyToClipboard( myUrl );
-  alert(myUrl + ' copied to clipboard!')
-});
 
 
 /* Code
